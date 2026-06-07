@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = "src/test/java/com/fcb/automation/stem/features/Sample.feature",
+        features = "src/test/java/com/fcb/automation/stem/features/Employee.feature",
 
         glue = {
                 "com.fcb.automation.stem.stepDefs.sample",
